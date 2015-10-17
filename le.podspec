@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/logentries/le_ios.git' }
   s.source_files = 'lelib/*.{h,m}'
   s.ios.deployment_target = '6.0'
+  s.tvos.deployment_target = '9.0'
   s.requires_arc = true
   s.license = 'MIT'
 end
