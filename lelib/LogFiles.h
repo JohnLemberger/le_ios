@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <LogFile.h>
+#import "LogFile.h"
 
 
 @interface LogFiles : NSObject
