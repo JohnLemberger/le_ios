@@ -7,11 +7,11 @@
 //
 
 #ifndef LE_DEBUG_LOGS
-    #ifdef DEBUG
-        #define LE_DEBUG_LOGS 1
-    #else
+//    #ifdef DEBUG
+//        #define LE_DEBUG_LOGS 1
+//    #else
         #define LE_DEBUG_LOGS 0
-    #endif
+//    #endif
 #endif
 
 #if LE_DEBUG_LOGS
